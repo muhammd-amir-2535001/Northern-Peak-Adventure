@@ -1,0 +1,33 @@
+.amir{
+    height: 100%;
+    width: 100%;
+}
+.logoimg{
+    height: 80px;
+    width: 80px;
+}
+.leftimgbg{
+    height: 800px;
+}
+.logoleft{
+    margin-top: -113px;
+    margin-left:1px;
+    height: 100px;
+    width: 100px;
+}
+.twoinput{
+    width: 400px;
+}
+.ceo{
+    height: 230px;
+    width: 400px;
+    border-radius: 50%;
+}
+.backgroundbaler{
+    align-items: center;
+    background: #000000d4;
+    color: white;
+    margin: 0 30px;
+    padding: 20px;
+    height: 70%;
+}
