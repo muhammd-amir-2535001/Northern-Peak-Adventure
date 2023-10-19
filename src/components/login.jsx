@@ -32,7 +32,6 @@ const Login = () => {
       setChecked(event.target.checked);
     };
 
-// test
   return (
     <div>
       
