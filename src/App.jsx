@@ -1,18 +1,21 @@
+import './App.css';
+import Header from './components/Header/Header';
+// import Login from './components/LoginPage/login';
+import GalleryReact from './components/TabMenu/GalleryReact';
 
-
-import './App.css'
-// import COVER_IMAGE from '../assets/images/amir.jpg';
-import Login from './components/login';
 
 function App() {
-
+ 
 
   return (
-    <div>
+   <div>
+     {/* <Header/>
+     <Login/>
+    <GalleryReact/> */}
    
-    <Login/>
-    </div>
-  )
+ 
+   </div>
+  );
 }
 
-export default App
+export default App;

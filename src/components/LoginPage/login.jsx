@@ -1,16 +1,17 @@
 // import React from 'react';
-import amir123 from '../assets/amir2.jpg';
-import amir from '../assets/amir.jpg';    
+import amir123 from '../../../public/images/amir2.jpg';
+import amir from '../../../public/images/amir.jpg';    
 // import Gilgit from '../assets/gilgit1.png';  
 // import Google-ICON from "./assets/google.svg"
- import logopeak from '../assets/logo_peak-removebg-preview.png'
+ import logopeak from '../../../public/images/logo_peak-removebg-preview.png'
  import Button from '@mui/material/Button';
  import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
-import App from '../App';
+// import App from '../App';
 // import Checkbox from '@mui/material/Checkbox';
 import * as React from 'react';
 import Checkbox from '@mui/material/Checkbox';
+
 
 
 
@@ -41,20 +42,20 @@ const Login = () => {
 
         <div className="relative w-1/2 h-full flex flex-col">
 
-          <div className='backgroundbaler absolute top-[20%] left-[10%] flex flex-col'>
-            <img src={logopeak} className="logoimg logoleft"/>
-            <h1 className='text-4xl bg-black text-white p-1 ml-1 font-bold my-4'>Northern Peak Adventure</h1>
-            <p className='text-xl text-white font-normal  hover:bg-green-700'>Northern Peak Adventure opens the door to an extraordinary experience. Join us in discovering the hidden treasures of Gilgit-Baltistan. Are you ready for the adventure of a lifetime?</p>
-            <h3 className='text-2xl text-white font-bold my-4'>Explore Gilgit's Hidden Wonders Today</h3>
-            <p className='text-xl text-white divide-solid font-normal hover:bg-green-700 '>Northern Peak Adventure opens the door to an extraordinary experience. Join us in discovering the hidden treasures of Gilgit-Baltistan. Are you ready for the adventure of a lifetime?</p>
-            <h2 className='text-1xl text-white font-bold my-4 hover:bg-green'>Discover Gilgit's Adventure Beyond Limits.</h2>
+          <div className='backgroundbaler absolute top-[15%] left-[5%] right-[5%] flex flex-col'>
+            <img src={logopeak} className="logoimg logoleft h-20 w-20 "/>
+            <h1 className='text-4xl hover:bg-black  text-white p-1 ml-1 font-bold my-4'>Northern Peak Adventure</h1>
+            <p className='text-xl text-white font-normal  hover:bg-black border-50'>Northern Peak Adventure opens the door to an extraordinary experience. Join us in discovering the hidden treasures of Gilgit-Baltistan. Are you ready for the adventure of a lifetime?</p>
+            <h3 className='text-2xl text-white font-bold my-4 hover:bg-black '>Explore Gilgit's Hidden Wonders Today</h3>
+            <p className='text-xl text-white divide-solid font-normal hover:bg-black '>Northern Peak Adventure opens the door to an extraordinary experience. Join us in discovering the hidden treasures of Gilgit-Baltistan. Are you ready for the adventure of a lifetime?</p>
+            <h2 className='text-1xl text-white font-bold my-4 hover:bg-green hover:bg-black '>Discover Gilgit's Adventure Beyond Limits.</h2>
             {/* <h2 className='text-1xl text-black font-bold my-4'>Unlock Gilgit's Secrets with Us.</h2>*/}
             {/* <h2 className='text-1xl text-black font-bold my-4 hover:bg-green'>Journey with Us, Unveil Paradise.</h2>  */}
-            <img src={amir} className='ceo'/>
-            <h2 className='text-1xl bg-[#ffab00] font-bold my-4 hover:bg-green'>Muhammad Amir Founder and CEO  Of Northern Peak Adventure </h2>
+            <img src={amir} className='w-20 h-12 rounded-full'/>
+            <h2 className='text-1xl text-white hover:bg-black  font-bold my-4 hover:bg-green bg-opacity-80 bg-black p-3 mt-1'>Muhammad Amir Founder and CEO  Of Northern Peak Adventure </h2>
           </div>
           <div>
-          <img src={amir123} className="leftimgbg"/>
+          <img src={amir123} className="max-w-[100%]  h-[700px]  "/>
           </div>
 
          
@@ -62,9 +63,9 @@ const Login = () => {
         
         </div>
 
-        <div className='w-1/2 h-full bg-[#4dd0e1] flex flex-col p-20 justify-between items-center'>
+        <div className='w-1/2 h-full  flex flex-col p-20 justify-between items-center'>
 
-            <img src={logopeak} className="logoimg"/>
+            <img src={logopeak} className="logoimg w-10 h-10"/>
 
             <h1 className='text-xl text-white p-1 font-bold bg-black border-white/10 '>Northern Peak Adventure</h1>
             
@@ -151,7 +152,7 @@ const Login = () => {
             </div>
             <div className='w-full flex items-center justify-center relative py-2'>
               <div className='w-full h-[1px] bg-black/40'></div>
-               <p className='text-lg absolute mb-5 text-black/80 bg-[#6fcde9]'>or</p>
+               <p className='text-lg absolute mb-5 text-black/80'>or</p>
             </div>
             {/* <div className='w-full text-#060606 my-2 font-semibild bg-[#896023] border border-black/40 rounded-md p-4 text-center flex items-center justify-center cursor-pointer' >
                 {/* <img src={Google-ICON} className="h-6 mr-2" /> }
